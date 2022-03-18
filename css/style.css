@@ -12,6 +12,10 @@ html {
     overflow-x: auto;
     background: white;
     font-family: 'Lato', sans-serif;
+    background-image: url("../images/background.png");
+    background-repeat: round;
+    background-position: center;
+    background-size: cover;
 }
 
 .form {
@@ -30,6 +34,7 @@ html {
 .form__fieldset {
     text-align: center;
     border: solid 1px black;
+    background-color: rgba(255, 255, 255, 0.489);
 }
 
 .form__paragraph {
